@@ -9,9 +9,18 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "The Science of The Tennis Serve",
+  title: {
+    default: "The Science of The Tennis Serve",
+    template: "%s | Tennis Serve Guide",
+  },
   description:
     "Biomechanics, training, strategy, and recovery — a comprehensive guide built from peer-reviewed research and elite coaching analysis.",
+  openGraph: {
+    title: "The Science of The Tennis Serve",
+    description:
+      "Comprehensive tennis serve guide with biomechanics, training drills, and strategy.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({

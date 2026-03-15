@@ -83,4 +83,107 @@
   html.dark .body-text {
     color: #d6d3d1;
   }
+
+  /* StatBar: horizontal row on desktop, 2x2 grid on mobile */
+  .stat-bar-grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+
+  .stat-bar-cell {
+    border-right: 1px solid #44403c;
+  }
+
+  .stat-bar-cell:last-child {
+    border-right: none;
+  }
+
+  @media (max-width: 639px) {
+    .stat-bar-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .stat-bar-cell {
+      border-right: none;
+      border-bottom: 1px solid #44403c;
+    }
+
+    /* Top-left cell: right border */
+    .stat-bar-cell:nth-child(odd) {
+      border-right: 1px solid #44403c;
+    }
+
+    /* Bottom row: no bottom border */
+    .stat-bar-cell:nth-last-child(-n+2) {
+      border-bottom: none;
+    }
+  }
+
+  /* Hero section responsive padding */
+  @media (max-width: 639px) {
+    .hero-content {
+      padding: 48px 16px !important;
+    }
+  }
+
+  /* Content page mobile padding */
+  @media (max-width: 1023px) {
+    main {
+      padding-left: 16px !important;
+      padding-right: 16px !important;
+    }
+  }
+
+  /* Section cards grid: 4 cols desktop → 2 cols tablet → 1 col mobile */
+  .section-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  @media (max-width: 1023px) {
+    .section-cards-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 639px) {
+    .section-cards-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  /* Homepage responsive padding */
+  @media (max-width: 639px) {
+    .homepage-section {
+      padding-left: 16px !important;
+      padding-right: 16px !important;
+    }
+  }
+
+  /* Responsive grid: 3 cols → 1 col on mobile */
+  .grid-3-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media (max-width: 767px) {
+    .grid-3-col {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  /* Responsive grid: 2 cols → 1 col on mobile */
+  .grid-2-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (max-width: 639px) {
+    .grid-2-col {
+      grid-template-columns: 1fr;
+    }
+  }
 }

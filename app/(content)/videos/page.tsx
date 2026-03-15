@@ -157,9 +157,8 @@ export default function VideosPage() {
 
       {/* Top 3 featured videos */}
       <div
+        className="grid-3-col"
         style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(3, 1fr)",
           gap: "16px",
           marginBottom: "40px",
         }}

@@ -144,9 +144,8 @@ export default function TrainingPage() {
 
       {/* Two hero diagrams: rotator cuff + fascial catapult */}
       <div
+        className="grid-2-col"
         style={{
-          display: "grid",
-          gridTemplateColumns: "1fr 1fr",
           gap: "16px",
           marginBottom: "24px",
         }}
@@ -165,9 +164,8 @@ export default function TrainingPage() {
 
       {/* Volume stat */}
       <div
+        className="grid-3-col"
         style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(3, 1fr)",
           gap: "12px",
           marginBottom: "32px",
         }}

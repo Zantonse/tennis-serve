@@ -154,9 +154,8 @@ export default function RecoveryPage() {
 
       {/* Key recovery stats */}
       <div
+        className="grid-3-col"
         style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(3, 1fr)",
           gap: "12px",
           marginBottom: "32px",
         }}

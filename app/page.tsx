@@ -109,6 +109,7 @@ export default function Home() {
 
         {/* Hero content */}
         <div
+          className="hero-content"
           style={{
             position: "relative",
             zIndex: 1,
@@ -184,6 +185,7 @@ export default function Home() {
 
       {/* ── StatBar ──────────────────────────────────────────── */}
       <div
+        className="homepage-section"
         style={{
           maxWidth: "1200px",
           margin: "0 auto",
@@ -196,6 +198,7 @@ export default function Home() {
 
       {/* ── Key Findings ─────────────────────────────────────── */}
       <section
+        className="homepage-section"
         style={{
           maxWidth: "1200px",
           margin: "0 auto",
@@ -296,6 +299,7 @@ export default function Home() {
 
       {/* ── Section Cards ─────────────────────────────────────── */}
       <section
+        className="homepage-section"
         style={{
           maxWidth: "1200px",
           margin: "0 auto",
@@ -326,13 +330,7 @@ export default function Home() {
           Dive Into The Guide
         </h2>
 
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))",
-            gap: "20px",
-          }}
-        >
+        <div className="section-cards-grid">
           {allItems.map((item) => {
             const meta = cardMeta[item.href] ?? {
               iconSrc: "/images/icons/grid.svg",

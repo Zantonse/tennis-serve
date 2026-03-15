@@ -144,9 +144,8 @@ export default function EquipmentPage() {
 
       {/* Key spec stat cards */}
       <div
+        className="grid-3-col"
         style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(3, 1fr)",
           gap: "12px",
           marginBottom: "32px",
         }}
