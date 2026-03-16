@@ -108,6 +108,12 @@ export const navGroups: NavGroup[] = [
         icon: "heart",
         description: "Shoulder health, fatigue management, and injury prevention",
       },
+      {
+        title: "Recovery & Sleep",
+        href: "/recovery-sleep",
+        icon: "moon",
+        description: "Sleep science, active recovery, nutrition, and injury prevention",
+      },
     ],
   },
   {
@@ -155,6 +161,7 @@ export const pageOrder: string[] = [
   "/conditioning",
   "/training",
   "/recovery",
+  "/recovery-sleep",
   "/mental-game",
   "/videos",
   "/equipment",
