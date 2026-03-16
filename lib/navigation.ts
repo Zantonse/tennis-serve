@@ -67,6 +67,12 @@ export const navGroups: NavGroup[] = [
         description: "4.0→4.5 tactics and patterns",
       },
       {
+        title: "Return of Serve",
+        href: "/returns",
+        icon: "lightning",
+        description: "Positioning, technique, and tactics",
+      },
+      {
         title: "Training & Drills",
         href: "/training",
         icon: "dumbbell",
@@ -107,6 +113,7 @@ export const pageOrder: string[] = [
   "/serve-types",
   "/strategy",
   "/advanced",
+  "/returns",
   "/training",
   "/recovery",
   "/videos",
