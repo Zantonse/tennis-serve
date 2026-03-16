@@ -49,6 +49,12 @@ export const navGroups: NavGroup[] = [
         icon: "layers",
         description: "Flat, slice, kick, and topspin variations",
       },
+      {
+        title: "Momentum & Force",
+        href: "/momentum-force",
+        icon: "zap",
+        description: "Physics of power, spin, and energy transfer",
+      },
     ],
   },
   {
@@ -152,6 +158,7 @@ export const pageOrder: string[] = [
   "/biomechanics",
   "/technique",
   "/serve-types",
+  "/momentum-force",
   "/strategy",
   "/advanced",
   "/returns",
