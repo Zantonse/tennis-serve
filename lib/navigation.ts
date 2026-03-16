@@ -12,6 +12,23 @@ export interface NavGroup {
 
 export const navGroups: NavGroup[] = [
   {
+    label: "Start Here",
+    items: [
+      {
+        title: "Learn the Serve",
+        href: "/learn",
+        icon: "crosshair",
+        description: "Step-by-step walkthrough",
+      },
+      {
+        title: "Self-Assessment",
+        href: "/assess",
+        icon: "crosshair",
+        description: "Film and check your serve",
+      },
+    ],
+  },
+  {
     label: "Science",
     items: [
       {
@@ -77,6 +94,8 @@ export const navGroups: NavGroup[] = [
 ];
 
 export const pageOrder: string[] = [
+  "/learn",
+  "/assess",
   "/biomechanics",
   "/technique",
   "/serve-types",
