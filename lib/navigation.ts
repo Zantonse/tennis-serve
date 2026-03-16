@@ -61,6 +61,12 @@ export const navGroups: NavGroup[] = [
         description: "Placement, patterns, and match-play decisions",
       },
       {
+        title: "Advanced Strategy",
+        href: "/advanced",
+        icon: "grid",
+        description: "4.0→4.5 tactics and patterns",
+      },
+      {
         title: "Training & Drills",
         href: "/training",
         icon: "dumbbell",
@@ -100,6 +106,7 @@ export const pageOrder: string[] = [
   "/technique",
   "/serve-types",
   "/strategy",
+  "/advanced",
   "/training",
   "/recovery",
   "/videos",
