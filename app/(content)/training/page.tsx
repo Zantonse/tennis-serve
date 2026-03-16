@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import PageNav from "@/components/PageNav";
 import DiagramFigure from "@/components/DiagramFigure";
 import StatCard from "@/components/StatCard";
-import { mdxComponents } from "@/lib/mdx-components";
+import { mdxComponents, mdxOptions } from "@/lib/mdx-components";
 
 export default function TrainingPage() {
   const source = getContentSource("training");
@@ -58,7 +58,7 @@ export default function TrainingPage() {
         />
       </div>
 
-      <MDXRemote source={source} components={mdxComponents} />
+      <MDXRemote source={source} components={mdxComponents} options={mdxOptions} />
 
       <PageNav currentPath="/training" />
     </div>

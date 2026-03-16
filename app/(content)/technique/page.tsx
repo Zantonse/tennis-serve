@@ -3,7 +3,7 @@ import { getContentSource } from "@/lib/mdx";
 import Breadcrumb from "@/components/Breadcrumb";
 import PageNav from "@/components/PageNav";
 import DiagramFigure from "@/components/DiagramFigure";
-import { mdxComponents } from "@/lib/mdx-components";
+import { mdxComponents, mdxOptions } from "@/lib/mdx-components";
 
 export default function TechniquePage() {
   const source = getContentSource("technique");
@@ -20,7 +20,7 @@ export default function TechniquePage() {
         />
       </div>
 
-      <MDXRemote source={source} components={mdxComponents} />
+      <MDXRemote source={source} components={mdxComponents} options={mdxOptions} />
 
       <PageNav currentPath="/technique" />
     </div>

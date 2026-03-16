@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import PageNav from "@/components/PageNav";
 import StatCard from "@/components/StatCard";
 import DataTable from "@/components/DataTable";
-import { mdxComponents } from "@/lib/mdx-components";
+import { mdxComponents, mdxOptions } from "@/lib/mdx-components";
 
 export default function StrategyPage() {
   const source = getContentSource("strategy");
@@ -57,7 +57,7 @@ export default function StrategyPage() {
         />
       </div>
 
-      <MDXRemote source={source} components={mdxComponents} />
+      <MDXRemote source={source} components={mdxComponents} options={mdxOptions} />
 
       <PageNav currentPath="/strategy" />
     </div>

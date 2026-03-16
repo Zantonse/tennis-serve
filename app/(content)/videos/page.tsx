@@ -3,7 +3,7 @@ import { getContentSource } from "@/lib/mdx";
 import Breadcrumb from "@/components/Breadcrumb";
 import PageNav from "@/components/PageNav";
 import YouTubeFacade from "@/components/YouTubeFacade";
-import { mdxComponents } from "@/lib/mdx-components";
+import { mdxComponents, mdxOptions } from "@/lib/mdx-components";
 
 export default function VideosPage() {
   const source = getContentSource("videos");
@@ -48,7 +48,7 @@ export default function VideosPage() {
         />
       </div>
 
-      <MDXRemote source={source} components={mdxComponents} />
+      <MDXRemote source={source} components={mdxComponents} options={mdxOptions} />
 
       <PageNav currentPath="/videos" />
     </div>

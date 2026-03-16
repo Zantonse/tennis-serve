@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import PageNav from "@/components/PageNav";
 import DiagramFigure from "@/components/DiagramFigure";
 import DataTable from "@/components/DataTable";
-import { mdxComponents } from "@/lib/mdx-components";
+import { mdxComponents, mdxOptions } from "@/lib/mdx-components";
 
 export default function ServeTypesPage() {
   const source = getContentSource("serve-types");
@@ -34,7 +34,7 @@ export default function ServeTypesPage() {
         />
       </div>
 
-      <MDXRemote source={source} components={mdxComponents} />
+      <MDXRemote source={source} components={mdxComponents} options={mdxOptions} />
 
       <PageNav currentPath="/serve-types" />
     </div>

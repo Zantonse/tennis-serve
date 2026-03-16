@@ -1,4 +1,11 @@
 import type { MDXComponents } from "mdx/types";
+import remarkGfm from "remark-gfm";
+
+export const mdxOptions = {
+  mdxOptions: {
+    remarkPlugins: [remarkGfm],
+  },
+};
 
 export const mdxComponents: MDXComponents = {
   img: (props) => (
