@@ -29,6 +29,23 @@ export const navGroups: NavGroup[] = [
     ],
   },
   {
+    label: "Fundamentals",
+    items: [
+      {
+        title: "Grip Guide",
+        href: "/grips",
+        icon: "tool",
+        description: "Every grip for every shot — bevels, changes, and pressure",
+      },
+      {
+        title: "Groundstrokes",
+        href: "/groundstrokes",
+        icon: "target",
+        description: "Forehand, backhand, and slice technique",
+      },
+    ],
+  },
+  {
     label: "The Serve",
     items: [
       {
@@ -136,6 +153,12 @@ export const navGroups: NavGroup[] = [
         icon: "dumbbell",
         description: "Progressive serve drills and practice protocols",
       },
+      {
+        title: "Practice Planning",
+        href: "/practice-planning",
+        icon: "map",
+        description: "Weekly structure, 12-week cycles, and progress tracking",
+      },
     ],
   },
   {
@@ -183,6 +206,8 @@ export const navGroups: NavGroup[] = [
 export const pageOrder: string[] = [
   "/learn",
   "/assess",
+  "/grips",
+  "/groundstrokes",
   "/biomechanics",
   "/technique",
   "/serve-types",
@@ -198,6 +223,7 @@ export const pageOrder: string[] = [
   "/footwork-drills",
   "/conditioning",
   "/training",
+  "/practice-planning",
   "/mental-game",
   "/recovery",
   "/recovery-sleep",
