@@ -73,6 +73,12 @@ export const navGroups: NavGroup[] = [
         description: "Positioning, technique, and tactics",
       },
       {
+        title: "Doubles Strategy",
+        href: "/doubles",
+        icon: "grid",
+        description: "Formations, poaching, communication",
+      },
+      {
         title: "Training & Drills",
         href: "/training",
         icon: "dumbbell",
@@ -114,6 +120,7 @@ export const pageOrder: string[] = [
   "/strategy",
   "/advanced",
   "/returns",
+  "/doubles",
   "/training",
   "/recovery",
   "/videos",
