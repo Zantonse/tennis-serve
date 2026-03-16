@@ -111,6 +111,17 @@ export const navGroups: NavGroup[] = [
     ],
   },
   {
+    label: "Mental",
+    items: [
+      {
+        title: "Mental Game",
+        href: "/mental-game",
+        icon: "brain",
+        description: "Focus, pressure, self-talk, and match mindset",
+      },
+    ],
+  },
+  {
     label: "Resources",
     items: [
       {
@@ -144,6 +155,7 @@ export const pageOrder: string[] = [
   "/conditioning",
   "/training",
   "/recovery",
+  "/mental-game",
   "/videos",
   "/equipment",
 ];
