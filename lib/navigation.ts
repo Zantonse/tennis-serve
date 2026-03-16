@@ -29,7 +29,7 @@ export const navGroups: NavGroup[] = [
     ],
   },
   {
-    label: "Science",
+    label: "The Serve",
     items: [
       {
         title: "Biomechanics",
@@ -49,14 +49,19 @@ export const navGroups: NavGroup[] = [
         icon: "layers",
         description: "Flat, slice, kick, and topspin variations",
       },
+    ],
+  },
+  {
+    label: "Body Mechanics",
+    items: [
       {
-        title: "Upper Body Mechanics",
+        title: "Upper Body",
         href: "/upper-body",
         icon: "target",
         description: "Shoulder, arm path, wrist action across all strokes",
       },
       {
-        title: "Lower Body Mechanics",
+        title: "Lower Body",
         href: "/lower-body",
         icon: "target",
         description: "Stance, leg drive, hip rotation, and GRF",
@@ -76,7 +81,7 @@ export const navGroups: NavGroup[] = [
     ],
   },
   {
-    label: "Application",
+    label: "Match Play",
     items: [
       {
         title: "Strategy & Tactics",
@@ -102,6 +107,11 @@ export const navGroups: NavGroup[] = [
         icon: "grid",
         description: "Formations, poaching, communication",
       },
+    ],
+  },
+  {
+    label: "Movement & Fitness",
+    items: [
       {
         title: "Footwork",
         href: "/footwork",
@@ -121,13 +131,24 @@ export const navGroups: NavGroup[] = [
         description: "Fitness, strength, speed, and match endurance",
       },
       {
-        title: "Training & Drills",
+        title: "Serve Training",
         href: "/training",
         icon: "dumbbell",
-        description: "Progressive drills and practice protocols",
+        description: "Progressive serve drills and practice protocols",
+      },
+    ],
+  },
+  {
+    label: "Mind & Recovery",
+    items: [
+      {
+        title: "Mental Game",
+        href: "/mental-game",
+        icon: "brain",
+        description: "Focus, pressure, self-talk, and match mindset",
       },
       {
-        title: "Recovery",
+        title: "Serve Recovery",
         href: "/recovery",
         icon: "heart",
         description: "Shoulder health, fatigue management, and injury prevention",
@@ -136,18 +157,7 @@ export const navGroups: NavGroup[] = [
         title: "Recovery & Sleep",
         href: "/recovery-sleep",
         icon: "moon",
-        description: "Sleep science, active recovery, nutrition, and injury prevention",
-      },
-    ],
-  },
-  {
-    label: "Mental",
-    items: [
-      {
-        title: "Mental Game",
-        href: "/mental-game",
-        icon: "brain",
-        description: "Focus, pressure, self-talk, and match mindset",
+        description: "Sleep science, nutrition, active recovery, and injury prevention",
       },
     ],
   },
@@ -188,9 +198,9 @@ export const pageOrder: string[] = [
   "/footwork-drills",
   "/conditioning",
   "/training",
+  "/mental-game",
   "/recovery",
   "/recovery-sleep",
-  "/mental-game",
   "/videos",
   "/equipment",
 ];
