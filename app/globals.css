@@ -218,4 +218,21 @@
   html.dark .feel-cue strong {
     color: #fcd34d;
   }
+
+  /* Homepage chapter cards */
+  .homepage-card:hover {
+    border-color: #dc2626 !important;
+    box-shadow: 0 2px 8px rgba(220, 38, 38, 0.08);
+    transform: translateY(-1px);
+  }
+
+  html.dark .homepage-card {
+    background-color: #1c1917 !important;
+    border-color: #44403c !important;
+  }
+
+  html.dark .homepage-card:hover {
+    border-color: #dc2626 !important;
+    box-shadow: 0 2px 8px rgba(220, 38, 38, 0.15);
+  }
 }

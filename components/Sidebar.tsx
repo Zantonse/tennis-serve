@@ -89,7 +89,7 @@ export default function Sidebar() {
               lineHeight: 1.2,
             }}
           >
-            The Serve
+            4.0 → 4.5
           </span>
         </Link>
         <ThemeToggle />

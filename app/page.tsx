@@ -1,78 +1,51 @@
 import Image from "next/image";
 import Link from "next/link";
 import StatBar from "@/components/StatBar";
-import SectionCard from "@/components/SectionCard";
 import { navGroups } from "@/lib/navigation";
 
 const heroStats = [
-  { number: "2,300°/s", label: "Peak ISR Velocity" },
-  { number: "<10ms", label: "Acceleration Phase" },
-  { number: "172°", label: "External Rotation" },
-  { number: "115%", label: "MVC Pec Activation" },
+  { number: "25", label: "Chapters" },
+  { number: "4.0→4.5", label: "Target Level" },
+  { number: "8", label: "Topic Areas" },
+  { number: "100+", label: "Drills & Protocols" },
 ];
 
-const keyFindings = [
+const pillars = [
   {
-    title: "ISR Drives Serve Speed",
-    body: "Internal shoulder rotation is the primary velocity generator, peaking at 2,300°/s in under 10 milliseconds.",
+    title: "Technique & Mechanics",
+    body: "Grips, groundstrokes, serve biomechanics, upper/lower body mechanics, and full-body integration — the physical foundation of every shot.",
+    groups: ["Fundamentals", "The Serve", "Body Mechanics"],
   },
   {
-    title: "Fascia Powers the Catapult",
-    body: "The loading phase stores elastic energy in fascial slings for explosive recoil that muscles alone could not generate.",
+    title: "Tactics & Match Play",
+    body: "Point construction, placement patterns, return of serve, doubles formations, and the specific strategic shifts that separate 4.0 from 4.5.",
+    groups: ["Match Play"],
   },
   {
-    title: "Body Serve Wins Most Points",
-    body: "ATP data shows a 70–74% first-serve win rate — the highest of any target, yet the most underutilized.",
+    title: "Athletic Development",
+    body: "Footwork, conditioning, serve training, practice planning — structured programs to build the speed, strength, and endurance tennis demands.",
+    groups: ["Movement & Fitness"],
   },
   {
-    title: "Routine Consistency > Duration",
-    body: "Rushing your pre-serve routine by just 0.5 seconds correlates with a 22% higher double-fault rate.",
+    title: "Mind & Recovery",
+    body: "Between-point routines, pressure management, sleep science, evidence-rated recovery methods, and nutrition protocols backed by research.",
+    groups: ["Mind & Recovery"],
   },
 ];
 
-// Map each nav item to an icon and a diagram photo placeholder
-const cardMeta: Record<
-  string,
-  { iconSrc: string; photoSrc: string }
-> = {
-  "/biomechanics": {
-    iconSrc: "/images/icons/pulse.svg",
-    photoSrc: "/images/diagrams/kinetic-chain-diagram.png",
-  },
-  "/technique": {
-    iconSrc: "/images/icons/crosshair.svg",
-    photoSrc: "/images/diagrams/trophy-position.png",
-  },
-  "/serve-types": {
-    iconSrc: "/images/icons/arrows-fan.svg",
-    photoSrc: "/images/diagrams/pronation-comparison.png",
-  },
-  "/strategy": {
-    iconSrc: "/images/icons/grid.svg",
-    photoSrc: "/images/diagrams/kinetic-chain-diagram.png",
-  },
-  "/training": {
-    iconSrc: "/images/icons/lightning.svg",
-    photoSrc: "/images/diagrams/leg-drive-mechanics.png",
-  },
-  "/recovery": {
-    iconSrc: "/images/icons/chart-up.svg",
-    photoSrc: "/images/diagrams/rotator-cuff-serve.png",
-  },
-  "/videos": {
-    iconSrc: "/images/icons/play.svg",
-    photoSrc: "/images/diagrams/fascial-catapult-mechanism.png",
-  },
-  "/equipment": {
-    iconSrc: "/images/icons/settings.svg",
-    photoSrc: "/images/diagrams/trophy-position.png",
-  },
+// Color accents per nav group for the card grid
+const groupColors: Record<string, string> = {
+  "Start Here": "#dc2626",
+  Fundamentals: "#ea580c",
+  "The Serve": "#dc2626",
+  "Body Mechanics": "#2563eb",
+  "Match Play": "#059669",
+  "Movement & Fitness": "#7c3aed",
+  "Mind & Recovery": "#0891b2",
+  Resources: "#78716c",
 };
 
 export default function Home() {
-  // Flatten navGroups into a single ordered list of items
-  const allItems = navGroups.flatMap((group) => group.items);
-
   return (
     <div style={{ backgroundColor: "#fdfcfb", minHeight: "100vh" }}>
       {/* ── Hero Section ─────────────────────────────────────── */}
@@ -90,11 +63,11 @@ export default function Home() {
         {/* Background image */}
         <Image
           src="/images/diagrams/kinetic-chain-diagram.png"
-          alt="Tennis serve kinetic chain"
+          alt="Tennis biomechanics"
           fill
           className="object-cover"
           priority
-          style={{ opacity: 0.18 }}
+          style={{ opacity: 0.15 }}
         />
 
         {/* Dark overlay */}
@@ -103,7 +76,7 @@ export default function Home() {
             position: "absolute",
             inset: 0,
             background:
-              "linear-gradient(to right, rgba(28,25,23,0.92) 55%, rgba(28,25,23,0.4) 100%)",
+              "linear-gradient(to right, rgba(28,25,23,0.95) 50%, rgba(28,25,23,0.3) 100%)",
           }}
         />
 
@@ -126,11 +99,10 @@ export default function Home() {
               textTransform: "uppercase",
               letterSpacing: "4px",
               color: "#dc2626",
-              marginBottom: "16px",
               margin: "0 0 16px 0",
             }}
           >
-            The Science Of
+            The Complete Guide
           </p>
 
           <h1
@@ -141,10 +113,10 @@ export default function Home() {
               color: "#fafaf9",
               lineHeight: 1.05,
               margin: "0 0 20px 0",
-              maxWidth: "640px",
+              maxWidth: "700px",
             }}
           >
-            The Tennis Serve
+            From 4.0 to 4.5
           </h1>
 
           <p
@@ -152,34 +124,55 @@ export default function Home() {
               fontSize: "16px",
               lineHeight: 1.7,
               color: "#a8a29e",
-              maxWidth: "520px",
+              maxWidth: "560px",
               margin: "0 0 36px 0",
             }}
           >
-            A research-backed deep dive into biomechanics, technique, strategy,
-            and training — everything you need to develop a technically sound,
-            high-velocity serve.
+            25 research-backed chapters covering technique, biomechanics,
+            strategy, conditioning, footwork, the mental game, and
+            recovery — everything a competitive recreational player needs to
+            make the jump.
           </p>
 
-          <Link
-            href="/biomechanics"
-            style={{
-              display: "inline-flex",
-              alignItems: "center",
-              gap: "8px",
-              backgroundColor: "#dc2626",
-              color: "#ffffff",
-              fontWeight: 700,
-              fontSize: "14px",
-              padding: "14px 28px",
-              borderRadius: "8px",
-              textDecoration: "none",
-              letterSpacing: "0.3px",
-              transition: "background-color 0.15s ease",
-            }}
-          >
-            Start Reading →
-          </Link>
+          <div style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
+            <Link
+              href="/grips"
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                gap: "8px",
+                backgroundColor: "#dc2626",
+                color: "#ffffff",
+                fontWeight: 700,
+                fontSize: "14px",
+                padding: "14px 28px",
+                borderRadius: "8px",
+                textDecoration: "none",
+                letterSpacing: "0.3px",
+              }}
+            >
+              Start Reading →
+            </Link>
+            <Link
+              href="/practice-planning"
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                gap: "8px",
+                backgroundColor: "transparent",
+                color: "#a8a29e",
+                fontWeight: 600,
+                fontSize: "14px",
+                padding: "14px 28px",
+                borderRadius: "8px",
+                textDecoration: "none",
+                letterSpacing: "0.3px",
+                border: "1px solid #44403c",
+              }}
+            >
+              Build a Practice Plan
+            </Link>
+          </div>
         </div>
       </section>
 
@@ -196,7 +189,7 @@ export default function Home() {
         <StatBar stats={heroStats} />
       </div>
 
-      {/* ── Key Findings ─────────────────────────────────────── */}
+      {/* ── Four Pillars ────────────────────────────────────── */}
       <section
         className="homepage-section"
         style={{
@@ -205,99 +198,91 @@ export default function Home() {
           padding: "72px 32px",
         }}
       >
-        <div
+        <p
           style={{
-            display: "flex",
-            gap: "64px",
-            alignItems: "flex-start",
-            flexWrap: "wrap",
+            fontSize: "12px",
+            fontWeight: 800,
+            textTransform: "uppercase",
+            letterSpacing: "2px",
+            color: "#dc2626",
+            margin: "0 0 12px 0",
           }}
         >
-          {/* Left: findings list */}
-          <div style={{ flex: "1 1 380px", minWidth: "280px" }}>
-            <p
-              style={{
-                fontSize: "12px",
-                fontWeight: 800,
-                textTransform: "uppercase",
-                letterSpacing: "2px",
-                color: "#dc2626",
-                margin: "0 0 12px 0",
-              }}
-            >
-              Key Findings
-            </p>
-            <h2
-              style={{
-                fontSize: "32px",
-                fontWeight: 800,
-                letterSpacing: "-0.5px",
-                color: "#1c1917",
-                margin: "0 0 36px 0",
-                lineHeight: 1.15,
-              }}
-            >
-              What The Research Reveals
-            </h2>
+          What&apos;s Inside
+        </p>
+        <h2
+          style={{
+            fontSize: "32px",
+            fontWeight: 800,
+            letterSpacing: "-0.5px",
+            color: "#1c1917",
+            margin: "0 0 40px 0",
+            lineHeight: 1.15,
+          }}
+        >
+          Four Pillars of Development
+        </h2>
 
-            <div style={{ display: "flex", flexDirection: "column", gap: "24px" }}>
-              {keyFindings.map((finding) => (
-                <div
-                  key={finding.title}
-                  style={{
-                    borderLeft: "3px solid #dc2626",
-                    paddingLeft: "16px",
-                  }}
-                >
-                  <h3
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
+            gap: "24px",
+          }}
+        >
+          {pillars.map((pillar) => (
+            <div
+              key={pillar.title}
+              style={{
+                borderLeft: "3px solid #dc2626",
+                paddingLeft: "20px",
+                paddingTop: "4px",
+                paddingBottom: "4px",
+              }}
+            >
+              <h3
+                style={{
+                  fontSize: "16px",
+                  fontWeight: 700,
+                  color: "#1c1917",
+                  margin: "0 0 8px 0",
+                }}
+              >
+                {pillar.title}
+              </h3>
+              <p
+                style={{
+                  fontSize: "14px",
+                  color: "#78716c",
+                  margin: "0 0 12px 0",
+                  lineHeight: 1.6,
+                }}
+              >
+                {pillar.body}
+              </p>
+              <div style={{ display: "flex", gap: "6px", flexWrap: "wrap" }}>
+                {pillar.groups.map((g) => (
+                  <span
+                    key={g}
                     style={{
-                      fontSize: "15px",
-                      fontWeight: 700,
-                      color: "#1c1917",
-                      margin: "0 0 6px 0",
-                    }}
-                  >
-                    {finding.title}
-                  </h3>
-                  <p
-                    style={{
-                      fontSize: "14px",
+                      fontSize: "11px",
+                      fontWeight: 600,
                       color: "#78716c",
-                      margin: 0,
-                      lineHeight: 1.6,
+                      backgroundColor: "#f5f5f4",
+                      padding: "2px 8px",
+                      borderRadius: "4px",
                     }}
                   >
-                    {finding.body}
-                  </p>
-                </div>
-              ))}
+                    {g}
+                  </span>
+                ))}
+              </div>
             </div>
-          </div>
-
-          {/* Right: image */}
-          <div
-            style={{
-              flex: "1 1 320px",
-              minWidth: "260px",
-              borderRadius: "12px",
-              overflow: "hidden",
-              position: "relative",
-              minHeight: "340px",
-              backgroundColor: "#1c1917",
-            }}
-          >
-            <Image
-              src="/images/diagrams/trophy-position.png"
-              alt="Trophy position — the loading phase"
-              fill
-              className="object-cover"
-              style={{ opacity: 0.9 }}
-            />
-          </div>
+          ))}
         </div>
       </section>
 
-      {/* ── Section Cards ─────────────────────────────────────── */}
+      {/* ── Grouped Section Cards ──────────────────────────── */}
       <section
         className="homepage-section"
         style={{
@@ -324,27 +309,96 @@ export default function Home() {
             fontWeight: 800,
             letterSpacing: "-0.5px",
             color: "#1c1917",
-            margin: "0 0 36px 0",
+            margin: "0 0 40px 0",
           }}
         >
-          Dive Into The Guide
+          All 25 Chapters
         </h2>
 
-        <div className="section-cards-grid">
-          {allItems.map((item) => {
-            const meta = cardMeta[item.href] ?? {
-              iconSrc: "/images/icons/grid.svg",
-              photoSrc: "/images/diagrams/kinetic-chain-diagram.png",
-            };
+        <div style={{ display: "flex", flexDirection: "column", gap: "36px" }}>
+          {navGroups.map((group) => {
+            const accent = groupColors[group.label] ?? "#78716c";
             return (
-              <SectionCard
-                key={item.href}
-                title={item.title}
-                description={item.description}
-                href={item.href}
-                iconSrc={meta.iconSrc}
-                photoSrc={meta.photoSrc}
-              />
+              <div key={group.label}>
+                {/* Group header */}
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "8px",
+                    marginBottom: "12px",
+                  }}
+                >
+                  <div
+                    style={{
+                      width: "8px",
+                      height: "8px",
+                      borderRadius: "50%",
+                      backgroundColor: accent,
+                      flexShrink: 0,
+                    }}
+                  />
+                  <h3
+                    style={{
+                      fontSize: "13px",
+                      fontWeight: 700,
+                      textTransform: "uppercase",
+                      letterSpacing: "1.5px",
+                      color: "#44403c",
+                      margin: 0,
+                    }}
+                  >
+                    {group.label}
+                  </h3>
+                </div>
+
+                {/* Cards row */}
+                <div
+                  style={{
+                    display: "grid",
+                    gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))",
+                    gap: "12px",
+                  }}
+                >
+                  {group.items.map((item) => (
+                    <Link
+                      key={item.href}
+                      href={item.href}
+                      style={{
+                        display: "block",
+                        padding: "16px 18px",
+                        borderRadius: "10px",
+                        backgroundColor: "#fafaf9",
+                        border: "1px solid #e7e5e4",
+                        textDecoration: "none",
+                        transition:
+                          "border-color 0.15s, box-shadow 0.15s, transform 0.15s",
+                      }}
+                      className="homepage-card"
+                    >
+                      <div
+                        style={{
+                          fontSize: "14px",
+                          fontWeight: 600,
+                          color: "#1c1917",
+                          marginBottom: "4px",
+                        }}
+                      >
+                        {item.title}
+                      </div>
+                      <div
+                        style={{
+                          fontSize: "12px",
+                          color: "#78716c",
+                          lineHeight: 1.5,
+                        }}
+                      >
+                        {item.description}
+                      </div>
+                    </Link>
+                  ))}
+                </div>
+              </div>
             );
           })}
         </div>

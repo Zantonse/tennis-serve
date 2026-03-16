@@ -10,15 +10,15 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "The Science of The Tennis Serve",
-    template: "%s | Tennis Serve Guide",
+    default: "The Complete Tennis Guide — 4.0 to 4.5",
+    template: "%s | Tennis Guide",
   },
   description:
-    "Biomechanics, training, strategy, and recovery — a comprehensive guide built from peer-reviewed research and elite coaching analysis.",
+    "A research-backed guide to reaching 4.5 NTRP — technique, biomechanics, strategy, conditioning, mental game, and recovery.",
   openGraph: {
-    title: "The Science of The Tennis Serve",
+    title: "The Complete Tennis Guide — 4.0 to 4.5",
     description:
-      "Comprehensive tennis serve guide with biomechanics, training drills, and strategy.",
+      "25 chapters of research-backed tennis development covering technique, strategy, fitness, and the mental game.",
     type: "website",
   },
 };
