@@ -214,6 +214,35 @@ export const navGroups: NavGroup[] = [
     ],
   },
   {
+    label: "Court-Side",
+    items: [
+      {
+        title: "Drill Timer",
+        href: "/drill-timer",
+        icon: "clock",
+        description: "Guided intervals with audio cues",
+      },
+      {
+        title: "Serve Randomizer",
+        href: "/serve-random",
+        icon: "target",
+        description: "Random serve targets with streak tracking",
+      },
+      {
+        title: "Routine Timer",
+        href: "/routine-timer",
+        icon: "activity",
+        description: "Between-point 4-phase routine",
+      },
+      {
+        title: "Warm-Up",
+        href: "/warmup",
+        icon: "zap",
+        description: "Guided pre-match warm-up flow",
+      },
+    ],
+  },
+  {
     label: "Resources",
     items: [
       {
@@ -260,6 +289,10 @@ export const pageOrder: string[] = [
   "/dashboard",
   "/trends",
   "/season",
+  "/drill-timer",
+  "/serve-random",
+  "/routine-timer",
+  "/warmup",
   "/videos",
   "/equipment",
 ];
