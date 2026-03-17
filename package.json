@@ -9,6 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@types/three": "^0.183.1",
     "dexie": "^4.3.0",
     "dexie-react-hooks": "^4.2.0",
     "gray-matter": "^4.0.3",
@@ -16,7 +17,8 @@
     "next-mdx-remote": "^6.0.0",
     "react": "19.2.3",
     "react-dom": "19.2.3",
-    "remark-gfm": "^4.0.1"
+    "remark-gfm": "^4.0.1",
+    "three": "^0.183.2"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
