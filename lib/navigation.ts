@@ -185,6 +185,35 @@ export const navGroups: NavGroup[] = [
     ],
   },
   {
+    label: "My Tennis",
+    items: [
+      {
+        title: "Match Log",
+        href: "/match-log",
+        icon: "edit",
+        description: "Log matches and track your progress",
+      },
+      {
+        title: "Dashboard",
+        href: "/dashboard",
+        icon: "bar-chart",
+        description: "Pattern insights and recommendations",
+      },
+      {
+        title: "Trends",
+        href: "/trends",
+        icon: "trending-up",
+        description: "Win rate, composure, and serve trends",
+      },
+      {
+        title: "Season Overview",
+        href: "/season",
+        icon: "calendar",
+        description: "Monthly stats, streaks, and improvement areas",
+      },
+    ],
+  },
+  {
     label: "Resources",
     items: [
       {
@@ -227,6 +256,10 @@ export const pageOrder: string[] = [
   "/mental-game",
   "/recovery",
   "/recovery-sleep",
+  "/match-log",
+  "/dashboard",
+  "/trends",
+  "/season",
   "/videos",
   "/equipment",
 ];
