@@ -1,0 +1,352 @@
+[
+  {
+    "id": "grips-continental",
+    "front": "What grip do you use for serves, volleys, and slices?",
+    "back": "Continental grip (Bevel 2). Hold the racket like a hammer — the V of thumb and index finger sits on top of the handle.",
+    "sourcePage": "Grip Guide",
+    "sourceHref": "/grips"
+  },
+  {
+    "id": "grips-eastern-forehand",
+    "front": "Which grip places the base knuckle of the index finger on Bevel 3, and what shot is it best for?",
+    "back": "Eastern forehand grip. It gives a flat, penetrating ball and is ideal for hitting through the ball at mid-height contact.",
+    "sourcePage": "Grip Guide",
+    "sourceHref": "/grips"
+  },
+  {
+    "id": "grips-semi-western",
+    "front": "What grip is used by most modern baseline players for heavy topspin forehands?",
+    "back": "Semi-Western grip (Bevel 4). The hand moves further under the handle, naturally producing a low-to-high swing path that generates heavy topspin.",
+    "sourcePage": "Grip Guide",
+    "sourceHref": "/grips"
+  },
+  {
+    "id": "grips-western",
+    "front": "When is the full Western forehand grip advantageous and what is its major drawback?",
+    "back": "It excels on high-bouncing balls and clay courts. The drawback is difficulty handling low balls — the extreme grip makes contact below knee height very awkward.",
+    "sourcePage": "Grip Guide",
+    "sourceHref": "/grips"
+  },
+  {
+    "id": "grips-eastern-backhand",
+    "front": "What defines the Eastern backhand grip and why does it produce a naturally flat shot?",
+    "back": "The base knuckle of the index finger sits on Bevel 1 (top bevel). This places the palm behind the racket face, naturally driving through the ball rather than over it.",
+    "sourcePage": "Grip Guide",
+    "sourceHref": "/grips"
+  },
+  {
+    "id": "grips-pressure-and-changes",
+    "front": "What is the ideal grip pressure, and when should you change grips during a rally?",
+    "back": "Grip pressure should be light (3-4 out of 10) during preparation and firm only at contact. Change grips between shots — never mid-swing — using the off-hand to rotate the racket during the backswing.",
+    "sourcePage": "Grip Guide",
+    "sourceHref": "/grips"
+  },
+  {
+    "id": "groundstrokes-forehand-contact",
+    "front": "Where should the forehand contact point be relative to your body?",
+    "back": "Slightly in front of your lead hip, roughly one to two feet away from the body. Contact too close produces arm-dominated swings; too far causes you to reach and lose power.",
+    "sourcePage": "Groundstrokes",
+    "sourceHref": "/groundstrokes"
+  },
+  {
+    "id": "groundstrokes-backhand-types",
+    "front": "What are the two main backhand types and the key mechanical difference between them?",
+    "back": "One-handed and two-handed backhand. The two-hander uses the non-dominant arm as the primary driver for more power and stability; the one-hander relies on trunk rotation and shoulder turn for reach and disguise.",
+    "sourcePage": "Groundstrokes",
+    "sourceHref": "/groundstrokes"
+  },
+  {
+    "id": "groundstrokes-slice-technique",
+    "front": "What is the correct swing path for a backhand slice?",
+    "back": "High-to-low with a slightly open racket face. Swing forward and slightly downward, brushing under and through the ball — not chopping at it — to keep the ball low over the net.",
+    "sourcePage": "Groundstrokes",
+    "sourceHref": "/groundstrokes"
+  },
+  {
+    "id": "groundstrokes-net-clearance",
+    "front": "Why should groundstrokes clear the net by at least 2-3 feet in a rally?",
+    "back": "A higher net clearance gives greater margin for error and allows heavier topspin to bring the ball down inside the baseline. Only go low over the net on approach shots or when attacking short balls.",
+    "sourcePage": "Groundstrokes",
+    "sourceHref": "/groundstrokes"
+  },
+  {
+    "id": "groundstrokes-topspin-swing-path",
+    "front": "What swing path creates topspin on a groundstroke?",
+    "back": "A steep low-to-high path where the racket brushes up the back of the ball from roughly hip level to shoulder level. The steeper the path, the more topspin and the higher the net clearance.",
+    "sourcePage": "Groundstrokes",
+    "sourceHref": "/groundstrokes"
+  },
+  {
+    "id": "groundstrokes-rally-construction",
+    "front": "What is the primary goal when constructing a rally from the baseline?",
+    "back": "Move your opponent out of position with deep, directional groundstrokes before attacking. Consistency and depth beat winner attempts until you have a high-percentage opportunity.",
+    "sourcePage": "Groundstrokes",
+    "sourceHref": "/groundstrokes"
+  },
+  {
+    "id": "groundstrokes-inside-out-forehand",
+    "front": "When should you run around your backhand to hit an inside-out forehand?",
+    "back": "When the ball lands in your backhand corner and you have time to reposition. The inside-out forehand targets the opponent's backhand corner with a stronger, more aggressive weapon.",
+    "sourcePage": "Groundstrokes",
+    "sourceHref": "/groundstrokes"
+  },
+  {
+    "id": "groundstrokes-depth-targets",
+    "front": "Where should you aim most groundstrokes for maximum strategic effectiveness?",
+    "back": "Deep to within 3-5 feet of the baseline, generally cross-court. Deep balls push opponents back, reduce their angles, and give you more time to recover position.",
+    "sourcePage": "Groundstrokes",
+    "sourceHref": "/groundstrokes"
+  },
+  {
+    "id": "biomechanics-isr-velocity",
+    "front": "What is Internal Shoulder Rotation (ISR) and why is it the primary power source on the serve?",
+    "back": "ISR is the inward rotation of the upper arm in the shoulder socket during the forward swing. It is the fastest joint rotation in the serve and can generate up to 70% of racket head speed at contact.",
+    "sourcePage": "Biomechanics",
+    "sourceHref": "/biomechanics"
+  },
+  {
+    "id": "biomechanics-kinetic-chain",
+    "front": "What is the correct kinetic chain sequence for an efficient tennis serve?",
+    "back": "Legs drive into the ground, then hips rotate, then trunk rotates, then shoulder rotates, then elbow extends, then wrist/forearm snap at contact. Each segment passes energy to the next, amplifying racket speed.",
+    "sourcePage": "Biomechanics",
+    "sourceHref": "/biomechanics"
+  },
+  {
+    "id": "biomechanics-fascial-catapult",
+    "front": "What is the fascial catapult effect on the serve and how do you load it?",
+    "back": "The fascial catapult uses the elastic recoil of connective tissue stretched across the torso and shoulder during the backswing. Load it by creating maximum hip-shoulder separation — hips face the target while shoulders stay sideways.",
+    "sourcePage": "Biomechanics",
+    "sourceHref": "/biomechanics"
+  },
+  {
+    "id": "biomechanics-leg-drive",
+    "front": "What percentage of serve velocity comes from leg drive, and how do the legs contribute?",
+    "back": "Leg drive contributes roughly 15-20% of total serve velocity. The legs push upward and into the court, creating ground reaction force that initiates the kinetic chain and lifts the body toward the ball.",
+    "sourcePage": "Biomechanics",
+    "sourceHref": "/biomechanics"
+  },
+  {
+    "id": "biomechanics-trunk-energy",
+    "front": "Why is trunk rotation critical to serve power even though it is not the fastest joint?",
+    "back": "The trunk acts as the bridge transferring energy from the lower body to the upper body. A stiff or poorly timed trunk rotation breaks the kinetic chain, forcing the arm to compensate and risking injury.",
+    "sourcePage": "Biomechanics",
+    "sourceHref": "/biomechanics"
+  },
+  {
+    "id": "technique-trophy-position",
+    "front": "What are the three key checkpoints for the trophy position on the serve?",
+    "back": "Racket arm forms a 90-degree elbow bend with the racket pointing upward; tossing arm is fully extended toward the ball; weight is loaded on the back leg with the body coiled sideways to the net.",
+    "sourcePage": "Technique",
+    "sourceHref": "/technique"
+  },
+  {
+    "id": "technique-toss-placement",
+    "front": "Where should the ball toss land for a flat serve versus a kick serve?",
+    "back": "Flat serve: toss slightly in front and to the right (for right-handers), at roughly 1 o'clock. Kick serve: toss more over the head, behind and to the left, at roughly 11 o'clock, to promote upward brushing.",
+    "sourcePage": "Technique",
+    "sourceHref": "/technique"
+  },
+  {
+    "id": "technique-platform-vs-pinpoint",
+    "front": "What is the difference between platform and pinpoint stance, and which is better for beginners?",
+    "back": "Platform stance keeps feet shoulder-width apart throughout the serve; pinpoint brings the back foot forward to meet the front foot before jumping. Platform is generally better for beginners because it is more stable and consistent.",
+    "sourcePage": "Technique",
+    "sourceHref": "/technique"
+  },
+  {
+    "id": "technique-continental-serve",
+    "front": "Why must you use the Continental grip for all serve types?",
+    "back": "The Continental grip allows the forearm to pronate and the wrist to snap at contact, which is essential for generating pace and spin. Eastern or Western grips lock the wrist and drastically reduce power.",
+    "sourcePage": "Technique",
+    "sourceHref": "/technique"
+  },
+  {
+    "id": "technique-8-stage-model",
+    "front": "What are the 8 stages of the tennis serve motion model?",
+    "back": "Preparation, release (toss), early cocking, late cocking (trophy), acceleration, contact, follow-through, and recovery. Each stage sets up the next — faults in early stages cascade into errors at contact.",
+    "sourcePage": "Technique",
+    "sourceHref": "/technique"
+  },
+  {
+    "id": "serve-types-flat",
+    "front": "What makes a flat serve different mechanically, and what is its primary advantage?",
+    "back": "A flat serve uses a direct hit through the ball with minimal brushing, producing low spin and maximum velocity. Its advantage is raw pace, but the low net clearance and small target margin make it riskier on second serves.",
+    "sourcePage": "Serve Types",
+    "sourceHref": "/serve-types"
+  },
+  {
+    "id": "serve-types-slice-brush",
+    "front": "In which direction do you brush the ball to hit a slice serve?",
+    "back": "Brush outward to the right side of the ball (for right-handers), from roughly 3 o'clock to 9 o'clock. This creates sidespin that curves the ball to the right and stays low after bouncing.",
+    "sourcePage": "Serve Types",
+    "sourceHref": "/serve-types"
+  },
+  {
+    "id": "serve-types-kick-toss",
+    "front": "Why must the kick serve toss be placed further back and to the left (for right-handers)?",
+    "back": "The back-left toss forces the racket to brush steeply upward across the back of the ball from 7 to 1 o'clock, generating topspin that causes a high, kicking bounce to the opponent's backhand.",
+    "sourcePage": "Serve Types",
+    "sourceHref": "/serve-types"
+  },
+  {
+    "id": "serve-types-spin-rate",
+    "front": "How do spin rates compare across the three main serve types?",
+    "back": "Flat serves: lowest spin (under 2,000 rpm). Slice serves: moderate spin (2,000-3,000 rpm, mostly side). Kick serves: highest spin (3,000-4,500+ rpm, mostly top), which produces the most consistent and highest-bouncing second serve.",
+    "sourcePage": "Serve Types",
+    "sourceHref": "/serve-types"
+  },
+  {
+    "id": "serve-types-when-to-use",
+    "front": "When should you use each serve type: flat, slice, and kick?",
+    "back": "Flat: first serve for power down the T or wide. Slice: first or second serve to pull opponent off court or jam them. Kick: primary second serve for margin and high bounce, especially into the backhand.",
+    "sourcePage": "Serve Types",
+    "sourceHref": "/serve-types"
+  },
+  {
+    "id": "footwork-split-step",
+    "front": "When exactly should you perform the split step when returning serve?",
+    "back": "Land from the split step just as the server's racket makes contact with the ball. Splitting too early causes a second adjustment; too late means you are still moving when you need to react.",
+    "sourcePage": "Footwork",
+    "sourceHref": "/footwork"
+  },
+  {
+    "id": "footwork-crossover-vs-shuffle",
+    "front": "When should you crossover step versus shuffle step to reach a wide ball?",
+    "back": "Crossover (turn and run) for balls that require covering more than 4-5 feet quickly. Shuffle for shorter distances when you need to stay balanced and keep the ball in view throughout the movement.",
+    "sourcePage": "Footwork",
+    "sourceHref": "/footwork"
+  },
+  {
+    "id": "footwork-recovery-positioning",
+    "front": "Where should you recover after hitting a groundstroke from a wide position?",
+    "back": "Recover to bisect the opponent's two best return angles — not always to the center of the baseline. For a ball hit wide right, recover slightly left of center to cover the down-the-line threat.",
+    "sourcePage": "Footwork",
+    "sourceHref": "/footwork"
+  },
+  {
+    "id": "footwork-open-vs-closed",
+    "front": "What is the difference between open and closed stance, and when is each appropriate?",
+    "back": "Closed stance has the front foot stepping across the body toward the ball; open stance has both feet facing the net. Open stance is faster to set up and better for wide or high balls; closed stance gives more body rotation on inside-in shots.",
+    "sourcePage": "Footwork",
+    "sourceHref": "/footwork"
+  },
+  {
+    "id": "footwork-gravity-step",
+    "front": "What is the gravity step and how does it improve court movement?",
+    "back": "The gravity step is a small weight shift or fall forward toward the ball before your first explosive step. It converts static balance into momentum without wasted time, letting you cover the first step faster.",
+    "sourcePage": "Footwork",
+    "sourceHref": "/footwork"
+  },
+  {
+    "id": "mental-between-point-routine",
+    "front": "What are the 4 phases of an effective between-point routine?",
+    "back": "1) Physical release — turn away, relax racket arm. 2) Emotional reset — control negative reactions within 3 seconds. 3) Decision — walk slowly and choose the next tactical plan. 4) Ritual — bounce the ball or use a pre-serve bouncing pattern to trigger focus.",
+    "sourcePage": "Mental Game",
+    "sourceHref": "/mental-game"
+  },
+  {
+    "id": "mental-self-talk-reframing",
+    "front": "How should you reframe negative self-talk during a match?",
+    "back": "Replace judgmental labels (\"I'm terrible at this\") with process instructions (\"Watch the ball and swing through\"). Focus on what to do next, not what went wrong. Neutral or instructional self-talk outperforms both negative and excessively positive self-talk.",
+    "sourcePage": "Mental Game",
+    "sourceHref": "/mental-game"
+  },
+  {
+    "id": "mental-next-ball",
+    "front": "What is the 'next ball' mentality and why is it effective under pressure?",
+    "back": "The next ball mentality means committing fully to the current point and immediately releasing the last point — win or lose. It prevents score-based pressure from contaminating shot execution by keeping focus in the present.",
+    "sourcePage": "Mental Game",
+    "sourceHref": "/mental-game"
+  },
+  {
+    "id": "mental-choking-explanation",
+    "front": "What causes choking in tennis and what is the mechanism behind it?",
+    "back": "Choking occurs when conscious attention to automated motor skills disrupts their execution. Under pressure, players think about technique rather than outcome, re-engaging explicit processing of movements that should run on implicit memory.",
+    "sourcePage": "Mental Game",
+    "sourceHref": "/mental-game"
+  },
+  {
+    "id": "mental-16-second-reset",
+    "front": "What is the 16-second rule for between-point composure?",
+    "back": "Research shows that elite players take 16-20 seconds between points. Using this full window — walking slowly, breathing, planning — lowers heart rate and cortisol enough to prevent cumulative emotional arousal from derailing the next point.",
+    "sourcePage": "Mental Game",
+    "sourceHref": "/mental-game"
+  },
+  {
+    "id": "mental-composure-vs-practice",
+    "front": "Why should match mode and practice mode use different mental approaches?",
+    "back": "Practice mode is for technical experimentation and correction; match mode is for trusting what you have trained and playing freely. Switching to technical thinking mid-match undermines automaticity and heightens self-consciousness.",
+    "sourcePage": "Mental Game",
+    "sourceHref": "/mental-game"
+  },
+  {
+    "id": "strategy-cross-court-advantage",
+    "front": "Why is cross-court generally the highest-percentage groundstroke direction?",
+    "back": "The cross-court path travels over the lowest part of the net and gives the most court to land in. It also returns you closer to your natural recovery position, reducing the angles your opponent can exploit.",
+    "sourcePage": "Strategy",
+    "sourceHref": "/strategy"
+  },
+  {
+    "id": "strategy-body-serve",
+    "front": "Why does a body serve win a high proportion of free points?",
+    "back": "A serve directly at the opponent's hip jams their swing, forcing a cramped contact point they cannot drive through. It is harder to return than a wide serve because there is no space to unwind the racket.",
+    "sourcePage": "Strategy",
+    "sourceHref": "/strategy"
+  },
+  {
+    "id": "strategy-serve-plus-one",
+    "front": "What is the serve-plus-one pattern and why is it so effective?",
+    "back": "Serve-plus-one means planning where you will hit the second shot before you serve, based on the reaction you expect from your serve placement. This removes reactive decision-making under pressure and converts serve direction into a setup for attack.",
+    "sourcePage": "Strategy",
+    "sourceHref": "/strategy"
+  },
+  {
+    "id": "strategy-angle-bisection",
+    "front": "What is angle bisection for net recovery, and how do you apply it?",
+    "back": "After hitting a shot, recover to the point that splits the two widest angles your opponent can return into. This is not necessarily the center of the court — it shifts depending on where you hit the ball.",
+    "sourcePage": "Strategy",
+    "sourceHref": "/strategy"
+  },
+  {
+    "id": "strategy-high-percentage",
+    "front": "What defines high-percentage play, and when should you deviate from it?",
+    "back": "High-percentage play targets the cross-court direction, deep in the court, with good net clearance, using your strongest shot. Deviate only when you have a clear attacking opportunity — a short ball or a wide-open court.",
+    "sourcePage": "Strategy",
+    "sourceHref": "/strategy"
+  },
+  {
+    "id": "lower-body-hip-shoulder-separation",
+    "front": "What is hip-shoulder separation and how does it generate power?",
+    "back": "Hip-shoulder separation is the rotational gap between the hips (facing target) and the shoulders (still sideways) just before the forward swing. This coil stretches the core muscles and connective tissue, which unwind explosively to accelerate the arm.",
+    "sourcePage": "Lower Body",
+    "sourceHref": "/lower-body"
+  },
+  {
+    "id": "lower-body-knee-bend",
+    "front": "What is the optimal knee bend angle during the serve loading phase?",
+    "back": "Roughly 100-120 degrees of knee flexion at peak loading. More bend than this wastes energy absorbing the descent; less bend reduces ground reaction force and leg drive contribution.",
+    "sourcePage": "Lower Body",
+    "sourceHref": "/lower-body"
+  },
+  {
+    "id": "lower-body-grf-open-stance",
+    "front": "How does open stance affect ground reaction force (GRF) on groundstrokes?",
+    "back": "Open stance directs GRF vertically and slightly laterally rather than forward. It requires greater hip and trunk rotation to compensate, but it allows faster recovery because you do not need to step across your body.",
+    "sourcePage": "Lower Body",
+    "sourceHref": "/lower-body"
+  },
+  {
+    "id": "lower-body-stance-selection",
+    "front": "What are the main criteria for choosing between open and neutral/closed stance on a groundstroke?",
+    "back": "Choose open stance for wide balls, high balls, and when time is tight. Choose neutral or closed stance for inside-in shots, approach shots, or when you have ample time and want maximum forward momentum into the ball.",
+    "sourcePage": "Lower Body",
+    "sourceHref": "/lower-body"
+  },
+  {
+    "id": "lower-body-calf-achilles-spring",
+    "front": "How does the calf-Achilles spring mechanism help during the serve?",
+    "back": "The calf-Achilles complex stores elastic energy during the loading phase as the heel drops or the ankle loads. When the legs push off, this stored energy releases like a spring, adding upward velocity without additional muscular effort.",
+    "sourcePage": "Lower Body",
+    "sourceHref": "/lower-body"
+  }
+]
