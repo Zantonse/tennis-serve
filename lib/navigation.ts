@@ -275,6 +275,18 @@ export const navGroups: NavGroup[] = [
         icon: "zap",
         description: "Guided pre-match warm-up flow",
       },
+      {
+        title: "Flashcards",
+        href: "/flashcards",
+        icon: "book",
+        description: "Spaced repetition technique cues",
+      },
+      {
+        title: "Quick Reference",
+        href: "/quick-ref",
+        icon: "list",
+        description: "Key cues for court-side glancing",
+      },
     ],
   },
   {
@@ -328,6 +340,8 @@ export const pageOrder: string[] = [
   "/serve-random",
   "/routine-timer",
   "/warmup",
+  "/flashcards",
+  "/quick-ref",
   "/spin-viz",
   "/serve-sim",
   "/grip-explorer",
