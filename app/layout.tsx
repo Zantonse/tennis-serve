@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import RegisterSW from "@/components/RegisterSW";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -39,6 +40,7 @@ export default function RootLayout({
       </head>
       <body className="font-[family-name:var(--font-inter)] antialiased">
         {children}
+        <RegisterSW />
       </body>
     </html>
   );
