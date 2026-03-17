@@ -214,6 +214,41 @@ export const navGroups: NavGroup[] = [
     ],
   },
   {
+    label: "Interactive Tools",
+    items: [
+      {
+        title: "Spin Visualizer",
+        href: "/spin-viz",
+        icon: "eye",
+        description: "3D ball flight with spin physics",
+      },
+      {
+        title: "Serve Simulator",
+        href: "/serve-sim",
+        icon: "crosshair",
+        description: "Placement zones and serve+1 patterns",
+      },
+      {
+        title: "Grip Explorer",
+        href: "/grip-explorer",
+        icon: "hand",
+        description: "Interactive handle with grip info",
+      },
+      {
+        title: "Power Calculator",
+        href: "/power-calc",
+        icon: "zap",
+        description: "Racket speed to ball speed physics",
+      },
+      {
+        title: "Chain Sequencer",
+        href: "/chain-seq",
+        icon: "layers",
+        description: "Kinetic chain timing visualizer",
+      },
+    ],
+  },
+  {
     label: "Court-Side",
     items: [
       {
@@ -293,6 +328,11 @@ export const pageOrder: string[] = [
   "/serve-random",
   "/routine-timer",
   "/warmup",
+  "/spin-viz",
+  "/serve-sim",
+  "/grip-explorer",
+  "/power-calc",
+  "/chain-seq",
   "/videos",
   "/equipment",
 ];
